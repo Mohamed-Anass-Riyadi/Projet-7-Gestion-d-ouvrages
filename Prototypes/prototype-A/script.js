@@ -33,13 +33,12 @@ function insertNewRow(work) {
     cell2.innerHTML = work.author;
     cell3 = newRow.insertCell(2);
     cell3.innerHTML = work.price;
-    cell4 = newRow.insertCell(3);
+    cell4 = newRow.insertCell(3); 
     cell4.innerHTML = work.date;
     cell5 = newRow.insertCell(4);
     cell5.innerHTML = work.language
     cell6 = newRow.insertCell(5)
     cell6.innerHTML = work.type
     cell7 = newRow.insertCell(6)
-
 
 }

@@ -26,7 +26,7 @@ function readwork() {
 
 
 function insertNewRow(work) {
-    var tableBody = document.getElementById("worksTable").getElementsByTagName('tbody')[0];
+    var tableBody = document.getElementsByTagName('tbody')[0];
     var newRow = tableBody.insertRow(tableBody.length);
     newRow.insertCell(0).innerHTML = work.title;
     cell2 = newRow.insertCell(1);

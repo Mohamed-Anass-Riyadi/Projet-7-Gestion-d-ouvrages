@@ -1,0 +1,17 @@
+    <script>
+        <script src="ouvrages.js"></script>
+        <script src="gestionOuvrages.js"></script>
+    </script>
+    var gestionOuvrage = new GestionOuvrage();
+
+    console.log("Avent: " + gestionOuvrage.ouvrageList)
+  
+    // Ajouter un ouvrage
+    var ouvrage = new Ouvrage();
+    ouvrage.titre = "Mon titre"
+    gestionOuvrage.addOuvrage(ouvrage)
+    gestionOuvrage.addOuvrage(ouvrage)
+
+    for (var i = 0; i < gestionOuvrage.ouvrageList.length; i++) {
+        console.log( "apre: " + gestionOuvrage.ouvrageList[i].titre)
+    }

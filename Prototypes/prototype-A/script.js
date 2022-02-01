@@ -33,7 +33,7 @@ function insertNewRow(work) {
     cell2.innerHTML = work.author;
     cell3 = newRow.insertCell(2);
     cell3.innerHTML = work.price;
-    cell4 = newRow.insertCell(3); 
+    cell4 = newRow.insertCell(3); _
     cell4.innerHTML = work.date;
     cell5 = newRow.insertCell(4);
     cell5.innerHTML = work.language
